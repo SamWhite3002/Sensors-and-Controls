@@ -4,13 +4,11 @@ classdef Cam < handle
         rgbSubscriber = [];
         depthImg = [];
         depthSubscriber = [];
-
-                % Intrinsic Camera paramters obtained from 
-        px = 320.5;                 % Principal point x
-        py = 240.5;                 % Principal point y
-        f = 554.254691191187;       % Focal length
-        K = [554.254691191187, 0, 320.5; ...          % Camera Matrix
-             0, 554.254691191187, 240.5; ...
+        px = 320.5;                
+        py = 240.5;                
+        f = 554.254691191187;      
+        K = [554.254691191187, 0, 320.5;       
+             0, 554.254691191187, 240.5;
              0, 0, 1];
     end
     
