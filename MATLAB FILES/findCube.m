@@ -1,6 +1,6 @@
 classdef findCube < handle
     properties
-        blockWidth = 0.06; % dimensions of cube {m}    
+        blockWidth = 0.06;
         redBlock;
         greenBlock;
         redBlockPresent = false;
