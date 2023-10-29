@@ -16,16 +16,22 @@ fetch_gazebo packages
 
 movit_python packages
 
+# Locations
+1. Download project folder into workspace src folder
+2. Download environment launch file into fetch_gazebo/launch
+3. Download environment sdf file into fetch_gazebo/worlds
+
 
 # To Run:
-1. Launch Environment
+1. Start up MATLAB
+2. Launch Environment
 >$roslaunch fetch_gazebo project_environment.launch
 
-2. Launch fetch_moveit
+3. Launch fetch_moveit
 >$roslaunch fetch_moveit_config move_group.launch
 
 4. Run startup
 >$rosrun project startup.py
 
-5. Run main MATLAB file
+5. Run main MATLAB file (projectMAIN.m)
 
