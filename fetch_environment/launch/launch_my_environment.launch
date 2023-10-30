@@ -1,0 +1,23 @@
+<launch>
+    <!-- Start Gazebo with an empty world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+
+        <arg name="world_name" value="worlds/empty.world"/>
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+
+    <!-- Spawn your model into the Gazebo world -->
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" 
+          args="-file $(find fetch_environment)/worlds/model.sdf 
+                -sdf 
+                -model fetch_environment_model 
+                -x 1.5 
+                -y 0 
+                -z 0" />
+
+</launch>
+
