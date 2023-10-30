@@ -25,7 +25,7 @@ movit_python packages
 # To Run:
 1. Start up MATLAB
 2. Launch Environment
->$roslaunch fetch_gazebo project_environment.launch
+>$roslaunch fetch_gazebo launch_my_environment.launch
 
 3. Launch fetch_moveit
 >$roslaunch fetch_moveit_config move_group.launch
