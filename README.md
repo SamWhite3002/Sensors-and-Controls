@@ -62,3 +62,7 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
 # Code Logic
 ![My Image](CodeLogic.png)
 
+
+# Video Demonstration
+[Fetch Robot Grasping Task](https://youtu.be/ivZmcTA-lXA)
+
