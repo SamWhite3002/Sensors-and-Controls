@@ -12,8 +12,11 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
      - [Portable USB Ubuntu Stick](https://www.partitionwizard.com/partitionmanager/install-ubuntu-on-usb.html)
 
 2. **MATLAB R2022b**
+   - Useful Documentation:
+   - [MatLab on Ubuntu](https://www.geeksforgeeks.org/installing-matlab-on-linux/)
+     
 
-3. **Create catkin_ws**
+4. **Create catkin_ws**
    - Useful Link: [ROS Catkin Workspace Tutorial](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
    - Terminal lines:
      ```bash
@@ -28,7 +31,7 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
      /home/youruser/catkin_ws/src:/opt/ros/melodic/share
      ```
 
-4. **fetch_ros packages & fetch_gazebo packages**
+5. **fetch_ros packages & fetch_gazebo packages**
    ```bash
    sudo apt install ros-melodic-fetch-calibration ros-melodic-fetch-open-auto-dock \
    ros-melodic-fetch-navigation ros-melodic-fetch-tools -y
