@@ -50,20 +50,41 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
 
 
 # To Run:
-1. Start up MATLAB, open projectMAIN.m file
+1. Start up MATLAB
+```bash
+$cd path/to/directory/MATLAB/R2022b/bin
+$ ./matlab
+```
+Please ensure that the path to this project's MATLAB files is selected
+
 2. Open Terminal - Launch Environment
 ```bash
 $roslaunch fetch_gazebo launch_my_environment.launch
 ```
+This will open gazebo with the fetch robot, table, and objects to be detected and moved
+
 3. Open New Terminal - Launch fetch_moveit
 ```bash
 $roslaunch fetch_moveit_config move_group.launch
 ```
-5. Open New Terminal - Run startup
+This will enable MoveIt Motion Planning Framework
+
+Please wait for terminal message "You can start planning now" before continuing
+
+4. Open New Terminal - Run startup
 ```bash
 $rosrun project startup.py
 ```
+This will start up subscribers and publishers which are used to communicate between MATLAB and Python
+
+The fetch robot head will be tilted so that it is looking at the table surface
+
+Please wait for the terminal message "Head Tilted" before continuing
+
 5. Run main MATLAB file (projectMAIN.m)
+Please monitor gazebo and MATLAB command window
+
+The command window will have logging messages that indicate which stage the program is at, success messages and error messages that may be used for troubleshooting
 
 # Code Logic
 ![My Image](CodeLogic.png)
