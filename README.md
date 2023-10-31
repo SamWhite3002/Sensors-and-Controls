@@ -49,8 +49,9 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
 # To Run:
 1. Start up MATLAB
 2. Launch Environment
+```bash
 >$roslaunch fetch_gazebo launch_my_environment.launch
-
+```
 3. Launch fetch_moveit
 >$roslaunch fetch_moveit_config move_group.launch
 
