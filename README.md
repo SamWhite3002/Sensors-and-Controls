@@ -56,3 +56,6 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
 
 5. Run main MATLAB file (projectMAIN.m)
 
+# Code Logic
+![Model](Paste_link_here)
+
