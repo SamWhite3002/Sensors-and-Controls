@@ -1,12 +1,13 @@
 # Sensors and Controls - Fetch Robot
-Fetch robot to stack a red block ontop of a green block.
+Current implementation: Fetch robot to stack a red block ontop of a green block.
 
 Future implmentation: Fetch robot to grasp a red coke can and place onto of a green coaster
 
 # Installations:
-Ubuntu 18.04
-
-ROS Melodic
+1. Install Ubuntu 18.04 and ROS Melodic
+Useful documentation for installation:
+Virtual Machine Youtube Tutorial - https://www.youtube.com/watch?v=q4-vGmx_WZY&t=1300s
+Portable USB Ubuntu Stick - https://www.partitionwizard.com/partitionmanager/install-ubuntu-on-usb.html
 
 MATLAB R2022b
 
