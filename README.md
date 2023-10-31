@@ -41,9 +41,9 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
 
 
 # Locations
-1. Download project folder into workspace src folder
-2. Download environment launch file into fetch_gazebo/launch
-3. Download environment sdf file into fetch_gazebo/worlds
+1. From folders listed, download project folder and place into workspace src folder
+2. Download environment launch file and place it in fetch_gazebo/launch folder
+3. Download environment sdf file into fetch_gazebo/worlds folder
 
 
 # To Run:
