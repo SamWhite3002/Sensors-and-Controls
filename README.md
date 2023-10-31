@@ -50,14 +50,16 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
 1. Start up MATLAB
 2. Launch Environment
 ```bash
->$roslaunch fetch_gazebo launch_my_environment.launch
+$roslaunch fetch_gazebo launch_my_environment.launch
 ```
 3. Launch fetch_moveit
->$roslaunch fetch_moveit_config move_group.launch
-
-4. Run startup
->$rosrun project startup.py
-
+```bash
+$roslaunch fetch_moveit_config move_group.launch
+```
+5. Run startup
+```bash
+$rosrun project startup.py
+```
 5. Run main MATLAB file (projectMAIN.m)
 
 # Code Logic
