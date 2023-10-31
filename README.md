@@ -13,7 +13,7 @@ Future implmentation: Fetch robot to grasp a red coke can and place onto of a gr
 
 2. **MATLAB R2022b**
    - Useful Documentation:
-   - [MatLab on Ubuntu](https://www.geeksforgeeks.org/installing-matlab-on-linux/)
+      - [MatLab on Ubuntu](https://www.geeksforgeeks.org/installing-matlab-on-linux/)
      
 
 4. **Create catkin_ws**
